@@ -16,3 +16,22 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+var deinVorname = prompt("Vorname eingeben");
+var deinAlter = prompt("Alter einegeben");
+
+if (deinAlter <= 5)
+    {
+        console.log("Hallo "+ deinVorname + ", du solltest Milch trinken.");
+    }
+else if (deinAlter <= 12)
+    {
+        console.log("Hallo "+ deinVorname + ", du solltest Saft trinken.");
+    }
+else if (deinAlter <= 17)
+    {
+        console.log("Hallo "+ deinVorname + ", du solltest Cola trinken.");
+    }
+else 
+    {
+        console.log("Hallo "+ deinVorname + ", du solltest Wein trinken.");
+    }
